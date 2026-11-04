@@ -44,21 +44,15 @@ export const projects: Project[] = [
     execution: [
       {
         title: "Choosing the voice",
-        body: pending(
-          "How influencers were selected and briefed (number of creators, platforms, the brief you gave them).",
-        ),
+        body: "The centrepiece was an Instagram collaboration with creator @callherthato, published to both accounts on 25 December 2025, so the post lived in the creator’s feed as well as the brand’s.",
       },
       {
         title: "Shaping the content",
-        body: pending(
-          "What the content was: formats, key messages, posting schedule, and your part in approving or moderating it.",
-        ),
+        body: "A festive unboxing reel, “POV: Connie Ferguson sent a Christmas present!!”: a gift box opened on camera, with a personal letter and the CONNIE Expert 3-Step Firming Range inside.",
       },
       {
         title: "Managing the conversation",
-        body: pending(
-          "How you handled comments, community questions and reporting during the campaign.",
-        ),
+        body: "Followers answered with thanks to @conniebrands_za, and comments were acknowledged with likes from the post’s author. The collab drew 15 comments and 14 reposts.",
       },
     ],
     deliverables: [
@@ -68,13 +62,20 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        title: "Campaign content",
-        intro: "Influencer posts and the brand-page content they were measured against.",
+        title: "The collab post",
+        intro: "An Instagram collaboration between @conniebrands_za and creator @callherthato, 25 December 2025.",
         items: [
-          { pending: "Influencer post screenshot or video still", ratio: "4/5", span: "third" },
-          { pending: "Influencer post screenshot or video still", ratio: "4/5", span: "third" },
-          { pending: "Brand page post for comparison", ratio: "4/5", span: "third" },
-          { pending: "Platform insights screenshot showing views and likes", ratio: "21/8", span: "full" },
+          { ...img("/work/connie/unboxing-pov.jpg", "Instagram reel frame: a creator in a navy blazer points at a white gift box under the caption 'POV: Connie Ferguson sent a Christmas present!!'", "The hook: “POV: Connie Ferguson sent a Christmas present!!”"), span: "third" },
+          { ...img("/work/connie/unboxing-reveal.jpg", "Reel frame: the creator smiles while reading a letter lifted from the gift box", "The reveal: a personal letter in the box."), span: "third" },
+          { ...img("/work/connie/unboxing-product.jpg", "Reel frame: an open gift box with purple shredded paper, a letter and a CONNIE Expert product box", "The product: CONNIE Expert 3-Step Firming Range."), span: "third" },
+        ],
+      },
+      {
+        title: "In the comments",
+        intro: "Replies to the collab post. Usernames and profile photos are blurred.",
+        items: [
+          { ...img("/work/connie/comments.jpg", "Instagram comments on the collab post, including 'always the Best' and 'WOW, thank you to @conniebrands_za', with several comments liked by the author; usernames blurred", "Comments on the collab post, several liked by the author."), span: "third" },
+          { pending: "Platform insights screenshot showing views and likes", ratio: "4/3", span: "twoThirds" },
         ],
       },
     ],
