@@ -83,7 +83,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <figure className="rise max-w-[14rem] sm:max-w-[17rem] lg:col-span-4 lg:max-w-none lg:justify-self-end xl:col-span-3" style={{ "--rise-delay": "240ms" } as React.CSSProperties}>
+          <figure className="rise max-w-[18rem] sm:max-w-[21rem] lg:col-span-4 lg:max-w-none lg:justify-self-end xl:col-span-3" style={{ "--rise-delay": "240ms" } as React.CSSProperties}>
             <div className="overflow-hidden bg-cream" style={{ maxWidth: site.portrait.width * 1.15 }}>
               <Image
                 src={site.portrait.src}
@@ -91,7 +91,7 @@ export default function HomePage() {
                 width={site.portrait.width}
                 height={site.portrait.height}
                 priority
-                sizes="(min-width: 1024px) 300px, 260px"
+                sizes="(min-width: 1280px) 320px, (min-width: 1024px) 30vw, 340px"
                 quality={92}
                 className="block h-auto w-full"
               />

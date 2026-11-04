@@ -68,14 +68,14 @@ export default function AboutPage() {
 
         <div className="mt-16 grid gap-12 md:mt-24 md:grid-cols-12 md:gap-10">
           <Reveal className="md:col-span-4">
-            <figure className="max-w-[17rem]">
+            <figure className="max-w-[22rem]">
               <Image
                 src={site.portrait.src}
                 alt={site.portrait.alt}
                 width={site.portrait.width}
                 height={site.portrait.height}
                 priority
-                sizes="280px"
+                sizes="(min-width: 768px) 30vw, 352px"
                 quality={92}
                 className="block h-auto w-full bg-cream"
               />
