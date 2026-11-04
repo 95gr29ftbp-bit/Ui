@@ -6,8 +6,9 @@ import { Figure } from "@/components/Figure";
 import { PendingBlock, PendingText } from "@/components/Pending";
 import { ProjectCover } from "@/components/ProjectCover";
 import { Reveal } from "@/components/Reveal";
+import { Video } from "@/components/Video";
 import { getProject, projects } from "@/content/projects";
-import { isPending, type GalleryItem, type Maybe } from "@/content/types";
+import { isPending, isVideo, type GalleryItem, type Maybe } from "@/content/types";
 
 type Params = { slug: string };
 
@@ -220,6 +221,8 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
                   <Reveal key={k} delay={(k % 3) * 80} className={`${spanClass[span]} ${span === "full" || span === "half" || span === "twoThirds" ? "sm:col-span-2" : ""}`}>
                     {isPending(item) ? (
                       <PendingBlock hint={item.pending} ratio={item.ratio} />
+                    ) : isVideo(item) ? (
+                      <Video video={item} index={nextFig()} />
                     ) : (
                       <Figure image={item} index={nextFig()} sizes={sizesFor(span)} upscale={span === "third" ? 1.5 : 1.3} className="h-full" />
                     )}

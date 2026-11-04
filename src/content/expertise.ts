@@ -66,9 +66,10 @@ export const capabilityGroups: CapabilityGroup[] = [
         inPractice: [
           "Social graphics and posters",
           "Trade presenters and catalogues",
+          "Motion graphics for social",
           "Photography and short-form video editing",
         ],
-        seenIn: ["ors-olive-oil", "dabur-amla-hair-oil", "long-and-lasting"],
+        seenIn: ["ors-olive-oil", "sasol", "dabur-amla-hair-oil", "long-and-lasting"],
       },
     ],
   },

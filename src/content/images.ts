@@ -1,5 +1,5 @@
 import manifest from "./image-manifest.json";
-import type { WorkImage } from "./types";
+import type { WorkImage, WorkVideo } from "./types";
 
 const sizes = manifest as unknown as Record<string, [number, number]>;
 
@@ -16,4 +16,9 @@ export function img(src: string, alt: string, caption?: string): WorkImage {
     );
   }
   return { src, alt, caption, width: dims[0], height: dims[1] };
+}
+
+/** Reference a video in /public with its poster frame (the poster must be in the manifest). */
+export function video(src: string, poster: string, alt: string, caption?: string): WorkVideo {
+  return { kind: "video", src, poster: img(poster, alt), caption };
 }

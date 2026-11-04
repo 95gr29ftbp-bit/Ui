@@ -1,4 +1,4 @@
-import { img } from "./images";
+import { img, video } from "./images";
 import { pending, type Project } from "./types";
 
 /**
@@ -361,11 +361,11 @@ export const projects: Project[] = [
   {
     slug: "sasol",
     client: "Sasol",
-    title: "Everyday promotions, written warmly",
+    title: "A national network, told at a human scale",
     summary:
-      "Social campaign content and community management for Sasol, including Sasol Rewards, written to sound warm, local and close to everyday life.",
+      "Social content for Sasol, including two motion pieces I designed: an SMMEs Day animation for Global Entrepreneurship Week and a scam-awareness reel.",
     context: "In the feed",
-    disciplines: ["Social media", "Campaign copy", "Community management"],
+    disciplines: ["Motion design", "Social media", "Campaign copy", "Community management"],
     year: pending("Year"),
     engagement: pending(
       "Confirm how this work came about (e.g. through Bluecloud AI) and the campaign period.",
@@ -373,66 +373,72 @@ export const projects: Project[] = [
     cover: {
       tone: "night",
       image: img(
-        "/work/video/sasol-rewards.jpg",
-        "Video still of a Sasol Rewards storefront with colourful 'Danki Mzansi' window lettering",
+        "/work/sasol/smme-day-poster.jpg",
+        "Sasol SMMEs Day animation frame: 412 retail sites across South Africa, with the words Owner, Employer, Neighbour",
       ),
     },
     overview: [
-      "Forecourt promotions are easy to ignore. The work here was about making them feel personal: copy and concepts that sound like a neighbour, not a price list, and a community that gets real answers when it talks back.",
+      "Big brands are easy to scroll past. The work here was about bringing Sasol down to the scale of everyday life: the local entrepreneur who runs the forecourt down the road, or the suspicious text message everyone has received.",
+      "Both pieces were designed for the feed: short, sound-optional and built so the message lands even if someone only watches the first few seconds.",
     ],
-    objective: "Make everyday promotions feel personal and worth stopping for.",
+    objective: "Make everyday brand messages feel personal and worth stopping for.",
     role: [
+      "Design and animation of both motion pieces",
       "Campaign copy and creative concepts, from taglines to social dialogue",
-      "Social media campaigns",
       "Community management",
     ],
     approach:
-      "Emotionally resonant, family-focused messaging shaped around real moments, such as the school holidays, in a voice that's warm and local.",
+      "Take a big, corporate fact and give it a human face. A network of retail sites becomes a map of neighbours; a safety warning becomes a moment everyone recognises from their own phone.",
     execution: [
       {
-        title: "Taglines and concepts",
-        body: pending("Add two or three of your taglines or concept lines, exactly as approved."),
+        title: "SMMEs Day, Global Entrepreneurship Week",
+        body: "A 20-second 4:5 feed animation. It opens on a globe, lands on South Africa and fills the map one square for every site, counting up to 412 retail sites. Then it resolves on the people behind them: Owner. Employer. Neighbour.",
       },
       {
-        title: "Social dialogue",
-        body: pending(
-          "Describe the social dialogue concepts: the formats and the conversation you wanted people to have.",
-        ),
+        title: "Don’t get scammed",
+        body: "A 24-second vertical reel that plays out a familiar scam: a “You’ve won R10,000” text and a link to claim the prize. Just before the tap, it cuts to a shield and a clear, repeatable action: Stop. Check. Verify.",
       },
       {
-        title: "Community management",
+        title: "Copy and community",
         body: pending(
-          "How you managed responses: volume, tone of voice guidelines, escalation.",
+          "Add examples of your taglines, social copy or community responses, exactly as approved.",
         ),
       },
     ],
     deliverables: [
-      "School holiday taglines",
-      "Social dialogue concepts",
+      "SMMEs Day animation (4:5 feed)",
+      "Scam-awareness reel (9:16 vertical)",
       "Campaign copy",
       "Community management",
     ],
     gallery: [
       {
-        title: "Campaign",
+        title: "Motion for the feed",
+        intro: "Both pieces play muted on loop. Use the button to pause.",
         items: [
           {
-            ...img(
-              "/work/sasol/danki-mzansi-poster.jpg",
-              "Sasol Delight 'Danki Mzansi' promotion poster: 'Unga stressi, we got you', Zanele's Basket for R48.90",
-              "Campaign key visual: Sasol Delight 'Danki Mzansi' promotion (campaign context).",
+            ...video(
+              "/work/sasol/smme-day.mp4",
+              "/work/sasol/smme-day-poster.jpg",
+              "Animation: a globe turns to South Africa, the map fills with squares for 412 retail sites, then the words Owner, Employer, Neighbour appear",
+              "SMMEs Day, Global Entrepreneurship Week. 4:5 feed animation, 20 seconds.",
             ),
-            span: "third",
+            span: "half",
           },
-          { ...img("/work/video/sasol-rewards.jpg", "Video still of a Sasol Rewards storefront with 'Danki Mzansi' lettering", "Sasol Rewards, video still."), span: "third" },
-          { pending: "Social post or caption you wrote", ratio: "4/5", span: "third" },
-          { pending: "Community management examples (screenshots, names blurred)", ratio: "21/8", span: "full" },
+          {
+            ...video(
+              "/work/sasol/scam-awareness.mp4",
+              "/work/sasol/scam-awareness-poster.jpg",
+              "Vertical reel: a phone shows a prize-winning text and a claim link, then a green shield and the words Don't get scammed. Stop. Check. Verify.",
+              "Don’t get scammed. 9:16 vertical reel, 24 seconds.",
+            ),
+            span: "half",
+          },
         ],
       },
     ],
-    outcomes: pending("Add verified campaign results if available."),
+    outcomes: pending("Add verified results if available, e.g. views or engagement on each post."),
   },
-
   // ---------------------------------------------------------------------------
   {
     slug: "long-and-lasting",

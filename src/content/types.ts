@@ -13,6 +13,8 @@ export type Maybe<T> = T | Pending;
 export const pending = (hint: string): Pending => ({ pending: hint });
 export const isPending = (v: unknown): v is Pending =>
   typeof v === "object" && v !== null && "pending" in v;
+export const isVideo = (v: unknown): v is WorkVideo =>
+  typeof v === "object" && v !== null && (v as { kind?: string }).kind === "video";
 
 export type WorkImage = {
   src: string;
@@ -22,9 +24,20 @@ export type WorkImage = {
   caption?: string;
 };
 
-/** An image slot that may still be waiting for the real file. */
+/** A short looping video (MP4), shown with a poster frame. */
+export type WorkVideo = {
+  kind: "video";
+  src: string;
+  poster: WorkImage;
+  caption?: string;
+};
+
+type Span = { span?: "full" | "half" | "third" | "twoThirds" };
+
+/** An image or video slot, or a placeholder still waiting for the real file. */
 export type GalleryItem =
-  | (WorkImage & { span?: "full" | "half" | "third" | "twoThirds" })
+  | (WorkImage & Span)
+  | (WorkVideo & Span)
   | (Pending & {
       span?: "full" | "half" | "third" | "twoThirds";
       ratio?: string; // e.g. "16/9", "4/5"

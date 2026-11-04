@@ -2,7 +2,7 @@
 
 ## Stage 1: Audit
 
-**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters, the Dabur Amla Trade Presenter, the Sasol Delight "Danki Mzansi" poster file and the Long & Lasting UJ activation posters.
+**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters, the Dabur Amla Trade Presenter and the Long & Lasting UJ activation posters. Sasol work comes only from two motion pieces supplied directly as video, the only Sasol artwork Tshiamo designed; no Sasol artwork from Canva is used.
 
 **Worth keeping**
 - Real photography and short-form video. The people-first event work is a genuine strength.
@@ -50,7 +50,7 @@ Search `pending(` in `src/content/`. The main items are:
 1. **High-resolution images.** The current images come from Canva previews, because Canva's download host was blocked in the build environment. Export full-size JPGs from Canva and overwrite the same filenames in `public/work/`, especially `portrait/portrait-hero.jpg` and `portrait/portrait-celebrate.jpg`.
 2. **Context and year for ORS, Dabur Amla, Sasol and Long & Lasting:** who the work was for, and how it came about.
 3. **Bluecloud / Connie Brands:** visuals, plus the source and date range for the figures.
-4. **Sasol:** samples of approved taglines and copy, and community examples. Also confirm whether the Danki Mzansi poster should appear; it is labelled as campaign context, not as your design.
+4. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.
 5. **Apex Studios:** confirm that every gallery image is from that work.
 6. Verified outcomes, where they exist.
 7. Graduation years, a CV PDF, other platform links and a line for "Outside the brief".
