@@ -50,8 +50,7 @@
 Search `pending(` in `src/content/`. The main items are:
 1. **High-resolution images.** The current images come from Canva previews, because Canva's download host was blocked in the build environment. Export full-size JPGs from Canva and overwrite the same filenames in `public/work/`. Both portraits have already been replaced with originals; the remaining previews are a few Apex stills (themed event, partner video stills, social reel frame), Long & Lasting, the older ORS slides and some photography crops.
 2. **Context and year for ORS, Sasol and Long & Lasting:** who the work was for, and how it came about.
-3. **Bluecloud / Connie Brands:** your part in the Keyhole campaign report.
-4. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.
-5. **Apex Studios:** confirm that every gallery image is from that work.
-6. Verified outcomes, where they exist.
-7. Other platform links, a link to the Leadership Magazine article (if online) and a line for "Outside the brief". Graduation years, the CV, experience dates, recognition and writing now come from the 2026 CV.
+3. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.
+4. **Apex Studios:** confirm that every gallery image is from that work.
+5. Verified outcomes, where they exist.
+6. Other platform links, a link to the Leadership Magazine article (if online) and a line for "Outside the brief". Graduation years, the CV, experience dates, recognition and writing now come from the 2026 CV.

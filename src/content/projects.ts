@@ -58,13 +58,12 @@ export const projects: Project[] = [
       },
       {
         title: "Reporting",
-        body: "Performance across the brand's three accounts was tracked in Keyhole for the campaign report. The report compared the two versions of the post: roughly 40,900 views on the creator’s page against 12,400 on the CONNIE account, evidence that an influencer’s audience can carry a brand further than its own page.",
+        body: "Performance across the brand's three accounts was tracked in Keyhole, and the campaign report compared the two versions of the post: roughly 40,900 views on the creator’s page against 12,400 on the CONNIE account, evidence that an influencer’s audience can carry a brand further than its own page.",
       },
     ],
     deliverables: [
       "Influencer campaign management",
       "Campaign moderation and community management",
-      pending("Your part in the Keyhole campaign report, e.g. compiled it or contributed analysis"),
       pending("Other deliverables, e.g. content calendar or captions"),
     ],
     gallery: [
@@ -82,16 +81,16 @@ export const projects: Project[] = [
         intro: "Replies to the collab post. Usernames and profile photos are blurred.",
         items: [
           { ...img("/work/connie/comments.jpg", "Instagram comments on the collab post, including 'always the Best' and 'WOW, thank you to @conniebrands_za', with several comments liked by the author; usernames blurred", "Comments on the collab post, several liked by the author."), span: "third" },
-          { ...img("/work/connie/report-top-posts.jpg", "Campaign report list of top posts by Connie Brands across Facebook, Instagram and TikTok; the 25 December collab reel with @callherthato shows 493 likes and 14 comments", "Top posts in the campaign report, including the collab reel."), span: "twoThirds" },
+          { ...img("/work/connie/report-top-posts.jpg", "Keyhole list of top posts by Connie Brands across Facebook, Instagram and TikTok; the 25 December collab reel with @callherthato shows 493 likes and 14 comments", "Top posts in Keyhole, including the collab reel."), span: "twoThirds" },
         ],
       },
       {
-        title: "The campaign report",
-        intro: "Pages from the Summer Campaign social media report, built in Keyhole, covering the brand's Facebook, Instagram and TikTok accounts from 19 December 2025 to 26 January 2026.",
+        title: "The numbers, in Keyhole",
+        intro: "Screenshots from Keyhole, the analytics tool, covering the brand's Facebook, Instagram and TikTok accounts from 19 December 2025 to 26 January 2026.",
         items: [
           { ...img("/work/connie/report-summary.jpg", "Keyhole timeline of daily engagements and posts for Connie Brands' Facebook, Instagram and TikTok, 19 December 2025 to 26 January 2026, with a spike on 25 December, above a summary table: 37 posts, 18,661 followers, 10.6% follower growth, 2,324 engagements, 329,450 reach and 68,624 impressions", "Timeline and summary. Engagement peaks on 25 December, the day the collab went live."), span: "full" },
-          { ...img("/work/connie/report-top-posts-2.jpg", "Report list of top posts from Facebook, TikTok and Instagram between 19 December 2025 and 19 January 2026, each promoting the 3-Step Firming routine at R299", "More top posts: the R299 3-Step Firming offer."), span: "half" },
-          { ...img("/work/connie/report-top-posts-3.jpg", "Report list of top posts, including the TikTok version of the 25 December collab post and a 1 January 'New Year, New Confidence' reel", "More top posts, including the TikTok collab post."), span: "half" },
+          { ...img("/work/connie/report-top-posts-2.jpg", "Keyhole list of top posts from Facebook, TikTok and Instagram between 19 December 2025 and 19 January 2026, each promoting the 3-Step Firming routine at R299", "More top posts: the R299 3-Step Firming offer."), span: "half" },
+          { ...img("/work/connie/report-top-posts-3.jpg", "Keyhole list of top posts, including the TikTok version of the 25 December collab post and a 1 January 'New Year, New Confidence' reel", "More top posts, including the TikTok collab post."), span: "half" },
         ],
       },
     ],
