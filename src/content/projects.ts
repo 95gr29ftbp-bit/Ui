@@ -195,7 +195,7 @@ export const projects: Project[] = [
     client: "ORS Olive Oil",
     title: "Trade presenters that make a range easy to buy",
     summary:
-      "A catalogue, digital trade presenters and promotional artwork for the ORS Olive Oil range, organised around how the products are used.",
+      "Campaign key visuals, digital trade presenters and promotional artwork for the ORS Olive Oil range, organised around how the products are used.",
     context: "On the shelf",
     disciplines: ["Brand & graphic design", "Trade marketing", "Product communication"],
     year: pending("Year"),
@@ -205,8 +205,8 @@ export const projects: Project[] = [
     cover: {
       tone: "moss",
       image: img(
-        "/work/ors/mousse-cover.jpg",
-        "ORS Olive Oil Wrap/Set Mousse 100ml trade presenter cover, with a smiling model and the product on a green field",
+        "/work/ors/key-visual-the-original.jpg",
+        "ORS Olive Oil key visual: 'The Original. Trusted. True.' A smiling model holds the sheen spray, relaxer kit and wrap/set mousse among olives and an oil splash",
       ),
     },
     overview: [
@@ -215,6 +215,7 @@ export const projects: Project[] = [
     ],
     objective: "Give the trade a clear, consistent way to navigate the range.",
     role: [
+      "Campaign key visuals",
       "Layout and artwork",
       "Presentation design across catalogue and digital trade formats",
       "Promotional artwork",
@@ -223,24 +224,48 @@ export const projects: Project[] = [
       "Hold on to ORS's own olive identity rather than reinventing it, and open with portraits so the focus stays on the people the range is for. The data and listing detail follow, in the order a buyer needs it.",
     execution: [
       {
+        title: "Key visuals",
+        body: "Campaign artwork that puts people, product and the olive identity in one frame: “The Original. Trusted. True.” for the core range, and Black Castor Hair Oil positioned for braids, weaves and protective styles around three benefits: strengthen, thicken, refresh.",
+      },
+      {
         title: "A repeatable presenter structure",
         body: "Each product presenter follows the same sequence: introduction, consumer benefits, category data, price, listing information and a 360° support plan covering digital partnerships, social media, influencers, print and in-store visibility.",
       },
       {
         title: "Launches in the range",
-        body: "Presenters for the travel-sized Wrap/Set Mousse 100ml, the Heat Protection Serum and the new Sheen Sprays, each using the same system so the range reads as one family.",
+        body: "Presenters for the Black Castor and Coconut Sheen Sprays, the travel-sized Wrap/Set Mousse 100ml and the Heat Protection Serum, each using the same system so the range reads as one family.",
       },
       {
         title: "Promotional artwork",
-        body: "Buy-two-get-one-free mechanics for the Wrap/Set Mousse, Sheen Spray and full application kits, built to read at a glance in store.",
+        body: "A buy-two-get-one-free poster covering three mechanics (Wrap/Set Mousse, Sheen Spray and full application kits, with the ORS Girls Kit as the free item), built to read at a glance in store.",
       },
     ],
     deliverables: [
-      "Product catalogue",
+      "Campaign key visuals",
       "Digital trade presenters",
-      "Promotional artwork",
+      "Promotional poster",
+      "Product catalogue",
     ],
     gallery: [
+      {
+        title: "Key visuals and promotion",
+        intro: "Campaign artwork for the range, and the in-store promotion that carried it.",
+        items: [
+          { ...img("/work/ors/key-visual-the-original.jpg", "ORS Olive Oil key visual: 'The Original. Trusted. True.' with a smiling model holding three ORS products, framed by olives and an oil splash", "Key visual: The Original. Trusted. True."), span: "full" },
+          { ...img("/work/ors/key-visual-black-castor.jpg", "ORS Olive Oil with Black Castor key visual: a model with braids dispenses the product, beside three Black Castor Hair Oil bottles and the line 'For braids, weaves & protective hair styles'", "Key visual: Black Castor Hair Oil, for braids, weaves and protective styles."), span: "twoThirds" },
+          { ...img("/work/ors/promo-buy-2-get-1-free.jpg", "ORS Olive Oil 'Buy 2X & get 1 free!' poster with three offers: Wrapset Mousse, Sheen Spray and full application kits", "Promotional poster: buy two, get one free."), span: "third" },
+        ],
+      },
+      {
+        title: "Black Castor and Coconut Sheen Spray presenter",
+        intro: "A launch presenter for two new sheen sprays, from introduction to the case for listing.",
+        items: [
+          { ...img("/work/ors/sheen-spray-cover.jpg", "Black Castor and Coconut Sheen Spray presenter cover: two smiling models hold the sprays beside castor beans and coconut", "Cover."), span: "half" },
+          { ...img("/work/ors/sheen-spray-introducing.jpg", "'Introducing the new' slide describing the ORS Olive Oil sheen spray infused with black castor and coconut oil", "Introducing the range."), span: "half" },
+          { ...img("/work/ors/sheen-spray-benefits.jpg", "Consumer benefits slide comparing the Black Castor and Coconut sheen sprays", "Consumer benefits, side by side."), span: "half" },
+          { ...img("/work/ors/sheen-spray-category.jpg", "Category data slide with a MAT comparison chart and styling category facts", "Category data (sources as cited on the slide)."), span: "half" },
+        ],
+      },
       {
         title: "Wrap/Set Mousse 100ml presenter",
         intro: "From introduction to listing in nine slides.",
@@ -254,20 +279,18 @@ export const projects: Project[] = [
         ],
       },
       {
-        title: "Heat Protection Serum and Sheen Sprays",
-        intro: "The same system, applied to new launches.",
+        title: "Heat Protection Serum presenter",
+        intro: "The same system, applied to another launch.",
         items: [
-          { ...img("/work/ors/heat-serum-cover.jpg", "ORS Heat Protection Serum cover with a laughing model holding the product and an olive oil splash", "Heat Protection Serum, cover."), span: "half" },
-          { ...img("/work/ors/heat-serum-introducing.jpg", "Slide introducing the ORS Heat Protection Serum, enriched with olive oil and vitamin E", "Heat Protection Serum, introduction."), span: "half" },
-          { ...img("/work/ors/sheen-spray-cover.jpg", "ORS Olive Oil New Sheen Sprays cover with two smiling models holding the sprays", "New Sheen Sprays, cover."), span: "half" },
-          { ...img("/work/ors/heat-serum-benefits.jpg", "Consumer benefits slide for the Heat Protection Serum", "Heat Protection Serum, consumer benefits."), span: "half" },
+          { ...img("/work/ors/heat-serum-cover.jpg", "ORS Heat Protection Serum cover with a laughing model holding the product and an olive oil splash", "Cover."), span: "third" },
+          { ...img("/work/ors/heat-serum-introducing.jpg", "Slide introducing the ORS Heat Protection Serum, enriched with olive oil and vitamin E", "Introduction."), span: "third" },
+          { ...img("/work/ors/heat-serum-benefits.jpg", "Consumer benefits slide for the Heat Protection Serum", "Consumer benefits."), span: "third" },
         ],
       },
       {
         title: "Still to add",
         items: [
-          { pending: "Product catalogue spread (relax / maintain / treat / style)", ratio: "16/9", span: "half" },
-          { pending: "Buy 2 get 1 free promotional artwork", ratio: "16/9", span: "half" },
+          { pending: "Product catalogue spread (relax / maintain / treat / style)", ratio: "21/8", span: "full" },
         ],
       },
     ],

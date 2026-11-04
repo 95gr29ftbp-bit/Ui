@@ -2,7 +2,7 @@
 
 ## Stage 1: Audit
 
-**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters, the Dabur Amla Trade Presenter and the Long & Lasting UJ activation posters. Sasol work comes only from two motion pieces supplied directly as video, the only Sasol artwork Tshiamo designed; no Sasol artwork from Canva is used.
+**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters, the Dabur Amla Trade Presenter and the Long & Lasting UJ activation posters. ORS key visuals, the Buy 2 Get 1 Free poster and the Black Castor & Coconut Sheen Spray presenter were supplied directly at full resolution. Sasol work comes only from two motion pieces supplied directly as video, the only Sasol artwork Tshiamo designed; no Sasol artwork from Canva is used.
 
 **Worth keeping**
 - Real photography and short-form video. The people-first event work is a genuine strength.
@@ -20,6 +20,7 @@
 - Long & Lasting UJ poster (freebies version): "University of **Johanesbirg**".
 - Long & Lasting braid spray graphic: "Anti-**Danddruff**" and "looking**moisturised**".
 - ORS Mousse category slide: "Ethnic hair **hare** category".
+- ORS Black Castor & Coconut Sheen Spray presenter: "**360% DEGREE** SUPPORT PLAN" (that slide is left off the site until fixed).
 
 **Positioning:** a marketer who understands both strategy and craft. Each project is framed by where it has to perform: *in the feed*, *on the shelf*, *on campus*.
 
