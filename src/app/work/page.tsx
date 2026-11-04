@@ -8,7 +8,7 @@ import { archive, projects } from "@/content/projects";
 export const metadata: Metadata = {
   title: "Selected work",
   description:
-    "Case studies in social media, campaigns, content, community and design for Bluecloud AI, Connie Brands, Growthpoint / Apex Studios, ORS, Dabur Amla, Sasol and Long & Lasting.",
+    "Case studies in social media, campaigns, content, community and design for Bluecloud AI, Connie Brands, Growthpoint / Apex Studios, ORS, Sasol and Long & Lasting.",
   alternates: { canonical: "/work" },
 };
 

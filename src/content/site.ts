@@ -11,7 +11,7 @@ export const site = {
   /** Set NEXT_PUBLIC_SITE_URL in your host's settings once your domain is live. */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://tshiamomotswatswa.com",
   description:
-    "Tshiamo Motswatswa is a creative and digital marketer working across social media, content, campaigns, community and design. Selected work for ORS, Dabur Amla, Sasol, Growthpoint / Apex Studios and Bluecloud AI.",
+    "Tshiamo Motswatswa is a creative and digital marketer working across social media, content, campaigns, community and design. Selected work for ORS, Sasol, Growthpoint / Apex Studios and Bluecloud AI.",
 
   /** Shown in the hero status line */
   currently: "Campaign Moderator at Bluecloud AI",
@@ -99,7 +99,6 @@ export const site = {
   /** Brands represented in the work on this site */
   brands: [
     "ORS Olive Oil",
-    "Dabur Amla",
     "Sasol",
     "Growthpoint / Apex Studios",
     "Bluecloud AI",

@@ -2,12 +2,12 @@
 
 ## Stage 1: Audit
 
-**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters, the Dabur Amla Trade Presenter and the Long & Lasting UJ activation posters. ORS key visuals, the Buy 2 Get 1 Free poster and the Black Castor & Coconut Sheen Spray presenter were supplied directly at full resolution. Sasol work comes only from two motion pieces supplied directly as video, the only Sasol artwork Tshiamo designed; no Sasol artwork from Canva is used.
+**Sources reviewed (Canva):** the live "CREATIVE PORTFOLIO" site (tmotswatswa.my.canva.site), the "Portfolio Redesign (Draft)" deck, ORS Wrap/Set Mousse, Heat Protection Serum and Sheen Spray presenters and the Long & Lasting UJ activation posters. ORS key visuals, the Buy 2 Get 1 Free poster and the Black Castor & Coconut Sheen Spray presenter were supplied directly at full resolution. Sasol work comes only from two motion pieces supplied directly as video, the only Sasol artwork Tshiamo designed; no Sasol artwork from Canva is used.
 
 **Worth keeping**
 - Real photography and short-form video. The people-first event work is a genuine strength.
 - The Apex Studios Instagram mock-up with resident comments: real social proof.
-- The ORS and Amla presenters: well structured, and they show trade-marketing thinking, not just layout.
+- The ORS presenters: well structured, and they show trade-marketing thinking, not just layout.
 - The Connie Brands result (40,900+ views, 2,326 likes, 3x+ the page's 12,400 views).
 - The redesign draft's copy: specific, honest, first-person. Most site copy is built on it.
 
@@ -49,7 +49,7 @@
 
 Search `pending(` in `src/content/`. The main items are:
 1. **High-resolution images.** The current images come from Canva previews, because Canva's download host was blocked in the build environment. Export full-size JPGs from Canva and overwrite the same filenames in `public/work/`, especially `portrait/portrait-hero.jpg` and `portrait/portrait-celebrate.jpg`.
-2. **Context and year for ORS, Dabur Amla, Sasol and Long & Lasting:** who the work was for, and how it came about.
+2. **Context and year for ORS, Sasol and Long & Lasting:** who the work was for, and how it came about.
 3. **Bluecloud / Connie Brands:** visuals, plus the source and date range for the figures.
 4. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.
 5. **Apex Studios:** confirm that every gallery image is from that work.

@@ -302,86 +302,6 @@ export const projects: Project[] = [
 
   // ---------------------------------------------------------------------------
   {
-    slug: "dabur-amla-hair-oil",
-    client: "Dabur Amla Hair Oil",
-    title: "Heritage, made persuasive at shelf",
-    summary:
-      "A trade presentation and product communication design for the Dabur Amla Hair Oil range, built from supplied brand, product and market materials.",
-    context: "On the shelf",
-    disciplines: ["Presentation design", "Product communication", "Information design"],
-    year: pending("Year"),
-    engagement: pending(
-      "Describe the context accurately: e.g. a freelance design brief using materials supplied by the brand's distributor. (Not listed as employment.)",
-    ),
-    cover: {
-      tone: "forest",
-      image: img(
-        "/work/amla/cover.jpg",
-        "Dabur Amla Hair Oil trade presenter cover: 'The original Amla hair oil, trusted for generations', with the bottle set in an arch",
-      ),
-    },
-    overview: [
-      "Dabur Amla is a brand with more than a century of history behind it. The challenge for a trade audience is turning that heritage into reasons to list, using proof points a buyer can repeat.",
-      "The presenter moves from brand story to ritual, from proposition to market insight, then into the range itself. Search data and social proof sit alongside the heritage message so it reads as current, not nostalgic.",
-    ],
-    objective:
-      "Give retail buyers a clear, credible case for the range, from brand heritage to individual variants.",
-    role: [
-      "Presentation design: layout, visual system and slide design",
-      pending("Confirm whether you also structured the content, wrote copy or sourced the research"),
-    ],
-    approach:
-      "Let the brand's own green and gold carry the identity, use an arch motif drawn from the bottle's heritage, and keep every page to one idea, with the evidence close by.",
-    execution: [
-      {
-        title: "Brand and ritual",
-        body: "An opening that states the heritage plainly, followed by an illustrated how-to-use page that turns daily use and pre-wash treatment into simple, repeatable rituals.",
-      },
-      {
-        title: "Proposition and insight",
-        body: "A four-part customer proposition (heritage, value, authentic origin and a complete portfolio) and two market-insight pages pairing scalp-health and natural-ingredient search trends with where hair-care discovery happens.",
-      },
-      {
-        title: "Social proof",
-        body: "Creator and consumer reviews from TikTok, Instagram and YouTube, so the buyer sees the product already moving in culture.",
-      },
-      {
-        title: "The range",
-        body: "One page per variant (Original, Cooling, Gold, Anti-Dandruff and Jasmine), each with what it is ideal for, key ingredients and benefits in the same order.",
-      },
-    ],
-    deliverables: ["Trade presenter (12 pages)", "Product communication pages for five variants"],
-    gallery: [
-      {
-        title: "Story, ritual and proposition",
-        items: [
-          { ...img("/work/amla/no1-hair-oil.jpg", "Slide: 'The world's No. 1 hair oil' with four brand pillars", "The brand story."), span: "half" },
-          { ...img("/work/amla/how-to-use.jpg", "Illustrated how-to-use slide showing daily use and a three-step pre-wash treatment", "Two simple rituals, illustrated."), span: "half" },
-          { ...img("/work/amla/proposition.jpg", "Customer proposition slide: heritage and trust, superior value, authentic origin, a complete portfolio", "Why Dabur Amla wins at shelf."), span: "full" },
-        ],
-      },
-      {
-        title: "Insight and proof",
-        items: [
-          { ...img("/work/amla/scalp-insight.jpg", "Market insight slide on scalp health with a table of search terms and growth", "Market insight: scalp health (sources as cited on the slide)."), span: "half" },
-          { ...img("/work/amla/ingredient-insight.jpg", "Market insight slide on natural ingredients with Amla highlighted in a search table", "Market insight: natural ingredients."), span: "half" },
-          { ...img("/work/amla/social-proof.jpg", "Social proof slide with creator review videos from TikTok, Instagram and YouTube", "Consumer reviews and testimonials."), span: "full" },
-        ],
-      },
-      {
-        title: "The range",
-        items: [
-          { ...img("/work/amla/range-original.jpg", "Range page for Dabur Amla Hair Oil Original with key benefits", "Original."), span: "half" },
-          { ...img("/work/amla/range-gold.jpg", "Range page for Dabur Amla Gold Oil with key benefits", "Gold."), span: "half" },
-        ],
-      },
-    ],
-    outcomes: pending("Add the outcome if known, e.g. how and where the presenter was used."),
-    featured: true,
-  },
-
-  // ---------------------------------------------------------------------------
-  {
     slug: "sasol",
     client: "Sasol",
     title: "A national network, told at a human scale",
@@ -461,6 +381,7 @@ export const projects: Project[] = [
       },
     ],
     outcomes: pending("Add verified results if available, e.g. views or engagement on each post."),
+    featured: true,
   },
   // ---------------------------------------------------------------------------
   {
