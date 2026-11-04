@@ -29,12 +29,13 @@ export const projects: Project[] = [
       figure: { value: "40.9K+", label: "views on influencer content" },
     },
     overview: [
-      "At Bluecloud AI I work across the day-to-day of social: managing accounts, scheduling content, looking after the community and executing campaigns, while contributing to the creative strategy behind them.",
+      "At Bluecloud AI I run day-to-day social across multiple client accounts: moderation, engagement and content execution, alongside influencer outreach, UGC management and performance reporting in Keyhole and Meta Business Suite.",
       "The Connie Brands campaign is the clearest example of that work end to end. The brief was to take the brand's story further than its own page could carry it.",
     ],
     objective: "Take the brand's story beyond the audience of its own page.",
     role: [
       "Led the campaign as Campaign Moderator at Bluecloud AI",
+      "Influencer identification, outreach and relationship management",
       "Social media management and content scheduling",
       "Community management",
       "Campaign execution and contribution to creative strategy",
@@ -101,7 +102,7 @@ export const projects: Project[] = [
     disciplines: ["Content creation", "Event marketing", "Community management"],
     year: "2024 – 2025",
     engagement:
-      "Marketing / Student Life Marketing Intern at Growthpoint Properties, working on Apex Studios.",
+      "Marketing Intern at Growthpoint (Thrive Student Living), September 2024 to September 2025, working on Thrive @ Apex Studios.",
     cover: {
       tone: "terracotta",
       image: img(
@@ -117,8 +118,10 @@ export const projects: Project[] = [
     role: [
       "Content creation: photography, short-form video and graphics",
       "Social media scheduling",
+      "Planning, promoting and running student events",
       "Event marketing and promotional material",
-      "Marketing communications and campaign support",
+      "Community management, reporting and analytics",
+      "Project planning and budgeting",
     ],
     approach:
       "Real students and real moments, shared in a relaxed, peer-level voice. Events double as content engines: one evening becomes a reel, a photo set, a recap and a reason to follow.",
@@ -126,6 +129,10 @@ export const projects: Project[] = [
       {
         title: "Events as content",
         body: "Residence events, sports and partner activations were planned with content in mind, then photographed and filmed for short-form video, carousels and stories.",
+      },
+      {
+        title: "Promoting across channels",
+        body: "Cultural, wellbeing, academic and social events were promoted on WhatsApp, Instagram, TikTok and Facebook, using reels, countdowns and student ambassador activations to build attendance.",
       },
       {
         title: "A feed that feels lived in",

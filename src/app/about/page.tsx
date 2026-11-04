@@ -104,6 +104,10 @@ export default function AboutPage() {
                 In practice that means I’m as comfortable reading a comment section for what an audience
                 really wants as I am building the post, the presenter or the poster that answers it.
               </p>
+              <p>
+                I also write. My analytical feature on Botswana’s media landscape was published under
+                my own byline in Leadership Magazine.
+              </p>
             </Reveal>
 
             <Reveal delay={120} className="mt-12">
@@ -164,6 +168,64 @@ export default function AboutPage() {
                     Download CV (PDF)
                   </ArrowLink>
                 )}
+              </Reveal>
+            </div>
+          </div>
+
+          <div className="mt-20 grid gap-16 md:grid-cols-12 md:gap-10">
+            <div className="md:col-span-5">
+              <Reveal>
+                <h3 className="eyebrow text-muted">Recognition and leadership</h3>
+              </Reveal>
+              <ul className="mt-6">
+                {site.recognition.map((r) => (
+                  <Reveal as="li" key={r.title} className="border-t border-line py-5">
+                    <p className="flex items-baseline justify-between gap-4 text-[1.0625rem] font-medium">
+                      <span>{r.title}</span>
+                      {r.year && <span className="eyebrow shrink-0 text-muted">{r.year}</span>}
+                    </p>
+                    <p className="mt-1.5 text-[0.9375rem] leading-relaxed text-muted">{r.detail}</p>
+                  </Reveal>
+                ))}
+              </ul>
+            </div>
+
+            <div className="md:col-span-6 md:col-start-7">
+              <Reveal>
+                <h3 className="eyebrow text-muted">Published writing</h3>
+              </Reveal>
+              <ul className="mt-6">
+                {site.writing.map((w) => (
+                  <Reveal as="li" key={w.title} className="border-t border-line py-6">
+                    <p className="caption">{w.publication}</p>
+                    <p className="display mt-2 text-[1.75rem] leading-[1.1]">
+                      {isPending(w.url) ? (
+                        <>“{w.title}”</>
+                      ) : (
+                        <a href={w.url} target="_blank" rel="noopener noreferrer" className="link-underline">
+                          “{w.title}”
+                        </a>
+                      )}
+                    </p>
+                    <p className="mt-3 text-[0.9375rem] leading-relaxed text-muted">{w.summary}</p>
+                    {isPending(w.url) && (
+                      <p className="mt-3">
+                        <PendingText value={w.url} />
+                      </p>
+                    )}
+                  </Reveal>
+                ))}
+              </ul>
+
+              <Reveal className="mt-12">
+                <h3 className="eyebrow text-muted">Tools and platforms</h3>
+                <ul className="mt-5 flex flex-wrap gap-2">
+                  {site.tools.map((t) => (
+                    <li key={t} className="border border-line-strong px-3 py-1.5 text-[0.875rem]">
+                      {t}
+                    </li>
+                  ))}
+                </ul>
               </Reveal>
             </div>
           </div>

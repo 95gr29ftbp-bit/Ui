@@ -54,4 +54,4 @@ Search `pending(` in `src/content/`. The main items are:
 4. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.
 5. **Apex Studios:** confirm that every gallery image is from that work.
 6. Verified outcomes, where they exist.
-7. Graduation years, a CV PDF, other platform links and a line for "Outside the brief".
+7. Other platform links, a link to the Leadership Magazine article (if online) and a line for "Outside the brief". Graduation years, the CV, experience dates, recognition and writing now come from the 2026 CV.
