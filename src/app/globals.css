@@ -13,7 +13,7 @@
   --color-ink: #1e1c19;
   --color-ink-soft: #2a2723;
   --color-muted: #5c564d;
-  --color-subtle: #7a7368; /* large / decorative text only */
+  --color-subtle: #675f55; /* quieter than muted; still AA on ivory, cream and sand */
   --color-clay: #8a4e32;
   --color-line: rgb(30 28 25 / 0.14);
   --color-line-strong: rgb(30 28 25 / 0.32);
@@ -184,10 +184,6 @@
   opacity: 1;
   transform: none;
 }
-.no-js .reveal {
-  opacity: 1;
-  transform: none;
-}
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
@@ -212,7 +208,9 @@
 /* Hero headline line-by-line entrance */
 @keyframes rise {
   from {
-    opacity: 0;
+    /* Starts barely visible rather than invisible, so the browser counts the
+       hero as painted immediately (better Largest Contentful Paint). */
+    opacity: 0.01;
     transform: translate3d(0, 0.35em, 0);
   }
   to {

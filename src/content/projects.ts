@@ -339,7 +339,7 @@ export const projects: Project[] = [
       },
       {
         title: "Don’t get scammed",
-        body: "A 24-second vertical reel that plays out a familiar scam: a “You’ve won R10,000” text and a link to claim the prize. Just before the tap, it cuts to a shield and a clear, repeatable action: Stop. Check. Verify.",
+        body: "A 24-second vertical reel that plays out a familiar scam: a “You’ve won R10,000” text and a link to claim the prize. Just before the tap, it cuts to a shield and a clear, repeatable action: Stop. Check. Verify. Stay alert. Stay safe!",
       },
       {
         title: "Copy and community",
@@ -372,7 +372,7 @@ export const projects: Project[] = [
             ...video(
               "/work/sasol/scam-awareness.mp4",
               "/work/sasol/scam-awareness-poster.jpg",
-              "Vertical reel: a phone shows a prize-winning text and a claim link, then a green shield and the words Don't get scammed. Stop. Check. Verify.",
+              "Vertical reel: a phone shows a prize-winning text and a claim link, then a green shield and the words Don't get scammed. Stop. Check. Verify. Stay alert. Stay safe!",
               "Don’t get scammed. 9:16 vertical reel, 24 seconds.",
             ),
             span: "half",

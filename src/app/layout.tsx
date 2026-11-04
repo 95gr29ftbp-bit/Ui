@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { RevealObserver } from "@/components/RevealObserver";
 import { site } from "@/content/site";
 import "./globals.css";
 
@@ -68,10 +69,16 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-ZA" id="top" className={`${instrument.variable} ${hanken.variable}`}>
+      <head>
+        <noscript>
+          <style>{`.reveal,.rise{opacity:1!important;transform:none!important;animation:none!important}`}</style>
+        </noscript>
+      </head>
       <body className="min-h-dvh">
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <RevealObserver />
       </body>
     </html>
   );

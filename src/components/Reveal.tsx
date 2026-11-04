@@ -1,10 +1,10 @@
-"use client";
-
-import { useEffect, useRef, type ElementType, type ReactNode } from "react";
+import type { CSSProperties, ElementType, ReactNode } from "react";
 
 /**
- * Fades content up as it enters the viewport. Purely presentational:
- * content is fully visible without JavaScript and with reduced motion.
+ * Marks content to fade up as it enters the viewport. This is a plain server
+ * component: a single <RevealObserver /> in the root layout watches every
+ * `.reveal` element, so no per-block JavaScript is shipped or hydrated.
+ * Content stays visible without JavaScript and with reduced motion.
  */
 export function Reveal({
   children,
@@ -17,35 +17,10 @@ export function Reveal({
   delay?: number;
   className?: string;
 }) {
-  const ref = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    if (!("IntersectionObserver" in window)) {
-      el.classList.add("is-visible");
-      return;
-    }
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            io.unobserve(entry.target);
-          }
-        }
-      },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
-
   return (
     <Tag
-      ref={ref}
       className={`reveal ${className}`}
-      style={delay ? ({ "--reveal-delay": `${delay}ms` } as React.CSSProperties) : undefined}
+      style={delay ? ({ "--reveal-delay": `${delay}ms` } as CSSProperties) : undefined}
     >
       {children}
     </Tag>

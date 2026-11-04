@@ -38,8 +38,8 @@ export function ProjectCover({
       style={ratio ? { aspectRatio: ratio } : undefined}
     >
       {/* Corner meta, like a book jacket */}
-      <span className="eyebrow absolute top-4 left-4 max-w-[80%] text-ivory/70 sm:top-5 sm:left-5">{project.client}</span>
-      <span className="eyebrow absolute top-5 right-5 hidden text-ivory/70 sm:block">{project.context}</span>
+      <span className="eyebrow absolute top-4 left-4 max-w-[80%] text-ivory sm:top-5 sm:left-5">{project.client}</span>
+      <span className="eyebrow absolute top-5 right-5 hidden text-ivory sm:block">{project.context}</span>
 
       {cover.image ? (
         <div
@@ -55,7 +55,7 @@ export function ProjectCover({
             src={cover.image.src}
             alt={cover.image.alt}
             fill
-            sizes={sizes}
+            sizes={size === "lg" ? (portrait ? "(min-width: 768px) 32vw, 60vw" : "(min-width: 768px) 70vw, 80vw") : sizes}
             priority={priority}
             quality={90}
             className="object-cover"
@@ -64,7 +64,7 @@ export function ProjectCover({
       ) : cover.figure ? (
         <div className="px-6 text-center">
           <p className="display text-[clamp(4.5rem,3rem+7vw,10rem)] leading-none">{cover.figure.value}</p>
-          <p className="eyebrow mt-5 text-ivory/70">{cover.figure.label}</p>
+          <p className="eyebrow mt-5 text-ivory/85">{cover.figure.label}</p>
         </div>
       ) : null}
     </div>
