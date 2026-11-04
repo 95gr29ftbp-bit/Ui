@@ -48,7 +48,7 @@
 ## Content still needed from Tshiamo
 
 Search `pending(` in `src/content/`. The main items are:
-1. **High-resolution images.** The current images come from Canva previews, because Canva's download host was blocked in the build environment. Export full-size JPGs from Canva and overwrite the same filenames in `public/work/`, especially `portrait/portrait-celebrate.jpg` (the hero portrait has already been replaced).
+1. **High-resolution images.** The current images come from Canva previews, because Canva's download host was blocked in the build environment. Export full-size JPGs from Canva and overwrite the same filenames in `public/work/`. Both portraits have already been replaced with originals; the remaining previews are the Apex, Long & Lasting, older ORS slides and photography crops.
 2. **Context and year for ORS, Sasol and Long & Lasting:** who the work was for, and how it came about.
 3. **Bluecloud / Connie Brands:** visuals, plus the source and date range for the figures.
 4. **Sasol:** year and engagement context, plus samples of approved taglines, copy and community responses.

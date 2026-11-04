@@ -55,7 +55,7 @@ export const site = {
   ),
   portraitCandid: img(
     "/work/portrait/portrait-celebrate.jpg",
-    "Tshiamo Motswatswa celebrating at graduation, holding a rolled certificate",
+    "Tshiamo Motswatswa at Wits graduation in a gown and gold-and-black hood, smiling and holding a rolled Wits certificate",
   ),
 
   education: [

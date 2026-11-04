@@ -233,19 +233,19 @@ export default function HomePage() {
         <SectionHeading index="04" label="About" />
         <div className="mt-14 grid gap-12 md:mt-20 md:grid-cols-12 md:gap-10">
           <Reveal className="md:col-span-4">
-            <figure className="max-w-[15rem] md:max-w-[17rem]">
+            <figure className="max-w-[18rem] md:max-w-[20rem]">
               <Image
                 src={site.portraitCandid.src}
                 alt={site.portraitCandid.alt}
                 width={site.portraitCandid.width}
                 height={site.portraitCandid.height}
-                sizes="260px"
+                sizes="(min-width: 768px) 320px, 288px"
                 quality={92}
                 className="block h-auto w-full bg-cream"
               />
               <figcaption className="caption mt-3 flex gap-3">
                 <span className="text-subtle">Fig. 02</span>
-                <span>Graduation day</span>
+                <span>Graduation, Wits</span>
               </figcaption>
             </figure>
           </Reveal>

@@ -30,7 +30,7 @@ Anything not yet confirmed is written as `pending("what's needed")`. It renders 
 2. Run `npm run images` — this resizes oversized files and records their dimensions in `src/content/image-manifest.json`.
 3. Reference them in `projects.ts` with `img("/work/<folder>/<file>.jpg", "alt text", "caption")`.
 
-To **replace a low-resolution image with a better one**, overwrite the file with the same name and run `npm run images`. Nothing else changes.
+To **replace a low-resolution image with a better one**, overwrite the file with the same name and run `npm run images`. Nothing else changes. (If you are previewing locally with `npm start`, delete `.next/cache/images` so the old version isn't served from cache. Fresh deploys aren't affected.)
 
 Next.js serves every image as AVIF/WebP at the right size automatically.
 
