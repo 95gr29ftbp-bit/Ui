@@ -30,11 +30,11 @@ export const projects: Project[] = [
     },
     overview: [
       "At Bluecloud AI I run day-to-day social across multiple client accounts: moderation, engagement and content execution, alongside influencer outreach, UGC management and performance reporting in Keyhole and Meta Business Suite.",
-      "The Connie Brands campaign is the clearest example of that work end to end. The brief was to take the brand's story further than its own page could carry it.",
+      "The Connie Brands campaign, which I supported as part of the Bluecloud team, shows that work in action. The brief was to take the brand's story further than its own page could carry it.",
     ],
     objective: "Take the brand's story beyond the audience of its own page.",
     role: [
-      "Led the campaign as Campaign Moderator at Bluecloud AI",
+      "Supported the campaign as Campaign Moderator at Bluecloud AI",
       "Influencer identification, outreach and relationship management",
       "Social media management and content scheduling",
       "Community management",
