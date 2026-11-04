@@ -18,7 +18,7 @@ export const projects: Project[] = [
     client: "Bluecloud AI × Connie Brands",
     title: "Taking a brand's story beyond its own page",
     summary:
-      "Social media management at Bluecloud AI, and an influencer-led campaign for Connie Brands that reached more than three times the brand page's usual audience.",
+      "Social media management at Bluecloud AI, and an influencer-led campaign for Connie Brands whose creator post drew more than three times the views of the same content on the brand's own page.",
     context: "In the feed",
     disciplines: ["Campaign management", "Influencer engagement", "Social media"],
     year: "2025 – Present",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Campaign Moderator at Bluecloud AI, a communications and digital strategy agency.",
     cover: {
       tone: "ink",
-      figure: { value: "40.9K+", label: "views on influencer content" },
+      figure: { value: "40.9K", label: "views on the creator’s post" },
     },
     overview: [
       "At Bluecloud AI I run day-to-day social across multiple client accounts: moderation, engagement and content execution, alongside influencer outreach, UGC management and performance reporting in Keyhole and Meta Business Suite.",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     execution: [
       {
         title: "Choosing the voice",
-        body: "The centrepiece was an Instagram collaboration with creator @callherthato, published to both accounts on 25 December 2025, so the post lived in the creator’s feed as well as the brand’s.",
+        body: "The centrepiece was a post by creator Thato Immaculate (@callherthato) on 25 December 2025. The same content went out as a collaboration on the CONNIE Instagram account, so it lived in the creator’s feed as well as the brand’s.",
       },
       {
         title: "Shaping the content",
@@ -54,11 +54,11 @@ export const projects: Project[] = [
       },
       {
         title: "Managing the conversation",
-        body: "Followers answered with thanks to @conniebrands_za, and comments were acknowledged with likes from the post’s author. The collab drew 15 comments and 14 reposts.",
+        body: "Followers answered with thanks to @conniebrands_za, and comments were acknowledged with likes from the post’s author. On the creator’s page the post drew 48 comments, 11 reposts and a share; on the CONNIE account, 14 comments, 13 reposts and 2 shares.",
       },
       {
         title: "Reporting",
-        body: "Performance across the brand's three accounts was tracked in Keyhole for the campaign report. On the brand's Instagram, the collab reel was among the top-performing posts of the campaign, with 493 likes and 14 comments.",
+        body: "Performance across the brand's three accounts was tracked in Keyhole for the campaign report. The report compared the two versions of the post: roughly 40,900 views on the creator’s page against 12,400 on the CONNIE account, evidence that an influencer’s audience can carry a brand further than its own page.",
       },
     ],
     deliverables: [
@@ -96,13 +96,12 @@ export const projects: Project[] = [
       },
     ],
     outcomes: [
-      { value: "40,900+", label: "views on influencer content" },
-      { value: "2,326", label: "likes" },
-      { value: "3×+", label: "the brand page's reach of 12,400 views" },
+      { value: "40,900", label: "views on the creator’s post (approx.)" },
+      { value: "2,326", label: "likes on the creator’s post" },
+      { value: "3×+", label: "the views of the same post on the CONNIE account (approx. 12,400)" },
     ],
-    outcomesNote: pending(
-      "Confirm where the 40,900 views and 2,326 likes were measured (e.g. on @callherthato's account) and over what dates. The campaign report shows 493 likes for the collab on the brand's own Instagram.",
-    ),
+    outcomesNote:
+      "Source: Connie Brands Summer Campaign social media report. Post figures compare Thato Immaculate’s 25 December 2025 post with the same content on the CONNIE Instagram account (about 12,400 views, 496 likes, 14 comments, 13 reposts, 2 shares). Campaign figures cover the brand’s Facebook, Instagram and TikTok, 19 December 2025 to 26 January 2026.",
     featured: true,
   },
 
