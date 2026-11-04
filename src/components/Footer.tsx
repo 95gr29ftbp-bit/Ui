@@ -52,6 +52,11 @@ export function Footer() {
                     Email
                   </a>
                 </li>
+                <li>
+                  <a href={`tel:${site.contact.phone.tel}`} className="link-reveal tabular-nums">
+                    {site.contact.phone.display}
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

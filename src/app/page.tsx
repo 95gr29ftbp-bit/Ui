@@ -31,6 +31,7 @@ const personJsonLd = {
   jobTitle: "Creative and Digital Marketer",
   url: site.url,
   email: `mailto:${site.contact.email}`,
+  telephone: site.contact.phone.tel,
   address: { "@type": "PostalAddress", addressLocality: "Johannesburg", addressCountry: "ZA" },
   alumniOf: { "@type": "CollegeOrUniversity", name: "University of the Witwatersrand" },
   sameAs: [site.contact.linkedin.url],
@@ -296,6 +297,11 @@ export default function HomePage() {
                 LinkedIn
               </ArrowLink>
             </div>
+            <p className="mt-8 text-[0.9375rem] text-muted">
+              <a href={`mailto:${site.contact.email}`} className="link-underline [overflow-wrap:anywhere]">{site.contact.email}</a>
+              <span aria-hidden="true"> · </span>
+              <a href={`tel:${site.contact.phone.tel}`} className="link-underline whitespace-nowrap tabular-nums">{site.contact.phone.display}</a>
+            </p>
           </Reveal>
         </div>
       </section>

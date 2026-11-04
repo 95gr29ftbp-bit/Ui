@@ -45,7 +45,7 @@ export default function ContactPage() {
           Let’s make something <em>people stop for.</em>
         </h1>
         <p className="lede rise mt-10 max-w-[46ch] text-ink/80" style={{ "--rise-delay": "220ms" } as React.CSSProperties}>
-          Whether it’s a role, a campaign or a conversation, the best way to reach me is by email.
+          Whether it’s a role, a campaign or a conversation, you can reach me by email or phone.
           Tell me a little about what you’re working on.
         </p>
       </section>
@@ -64,6 +64,16 @@ export default function ContactPage() {
           <div className="mt-6">
             <CopyEmail email={contact.email} />
           </div>
+        </Reveal>
+
+        <Reveal className="mt-14 border-t border-line pt-8 md:mt-20 md:pt-12">
+          <p className="eyebrow text-muted">Phone</p>
+          <a href={`tel:${contact.phone.tel}`} className="group mt-5 inline-block">
+            <span className="display text-[clamp(1.6rem,0.7rem+4.4vw,5.5rem)] leading-[1.02] tabular-nums transition-colors duration-300 group-hover:text-clay">
+              {contact.phone.display}
+            </span>
+          </a>
+          <p className="caption mt-4">+27 74 309 9778 from outside South Africa.</p>
         </Reveal>
 
         <div className="mt-20 grid gap-14 md:grid-cols-12 md:gap-10">

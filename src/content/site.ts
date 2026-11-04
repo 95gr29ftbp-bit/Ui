@@ -26,6 +26,8 @@ export const site = {
   contact: {
     /** Replace with a professional address (e.g. hello@yourdomain.com) when ready. */
     email: "tshiamomotswatswa@gmail.com",
+    /** Shown as written; `tel` is the international dialling form used by the link. */
+    phone: { display: "074 309 9778", tel: "+27743099778" },
     linkedin: {
       label: "LinkedIn",
       handle: "in/tshiamo-motswatswa",
