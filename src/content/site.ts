@@ -57,10 +57,6 @@ export const site = {
     "/work/portrait/portrait-celebrate.jpg",
     "Tshiamo Motswatswa laughing at graduation, wearing a gold-and-black hood and holding a rolled certificate out towards the camera",
   ),
-  portraitGraduation: img(
-    "/work/portrait/portrait-graduation.jpg",
-    "Tshiamo Motswatswa at Wits graduation in a gown and gold-and-black hood, smiling and holding a rolled Wits certificate",
-  ),
 
   education: [
     {

@@ -70,10 +70,10 @@ export default function AboutPage() {
           <Reveal className="md:col-span-4">
             <figure className="max-w-[22rem]">
               <Image
-                src={site.portraitGraduation.src}
-                alt={site.portraitGraduation.alt}
-                width={site.portraitGraduation.width}
-                height={site.portraitGraduation.height}
+                src={site.portrait.src}
+                alt={site.portrait.alt}
+                width={site.portrait.width}
+                height={site.portrait.height}
                 priority
                 sizes="(min-width: 768px) 30vw, 352px"
                 quality={92}
@@ -81,7 +81,7 @@ export default function AboutPage() {
               />
               <figcaption className="caption mt-3 flex gap-3">
                 <span className="text-subtle">Fig. 01</span>
-                <span>Graduation, Wits</span>
+                <span>Tshiamo Motswatswa, {site.location}</span>
               </figcaption>
             </figure>
           </Reveal>
