@@ -7,7 +7,7 @@ import { pending, type Maybe } from "./types";
 export const site = {
   name: "Tshiamo Motswatswa",
   role: "Creative & Digital Marketing",
-  location: "Pretoria, South Africa",
+  location: "Johannesburg, South Africa",
   /** Set NEXT_PUBLIC_SITE_URL in your host's settings once your domain is live. */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://tshiamomotswatswa.com",
   description:

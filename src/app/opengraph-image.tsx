@@ -17,7 +17,7 @@ export default async function OpengraphImage() {
       <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 72, background: "#f5f0e8", color: "#1e1c19", fontFamily: "Instrument Serif" }}>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 22, letterSpacing: 4, textTransform: "uppercase", color: "#5c564d", fontFamily: "sans-serif" }}>
           <span>Tshiamo Motswatswa</span>
-          <span>Pretoria, South Africa</span>
+          <span>Johannesburg, South Africa</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", fontSize: 104, lineHeight: 1, letterSpacing: -2 }}>
           <span>How people read the world</span>

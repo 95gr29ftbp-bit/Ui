@@ -31,7 +31,7 @@ const personJsonLd = {
   jobTitle: "Creative and Digital Marketer",
   url: site.url,
   email: `mailto:${site.contact.email}`,
-  address: { "@type": "PostalAddress", addressLocality: "Pretoria", addressCountry: "ZA" },
+  address: { "@type": "PostalAddress", addressLocality: "Johannesburg", addressCountry: "ZA" },
   alumniOf: { "@type": "CollegeOrUniversity", name: "University of the Witwatersrand" },
   sameAs: [site.contact.linkedin.url],
   knowsAbout: capabilityGroups.flatMap((g) => g.capabilities.map((c) => c.name)),
