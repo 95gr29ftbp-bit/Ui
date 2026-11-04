@@ -82,7 +82,7 @@ export const projects: Project[] = [
         intro: "Replies to the collab post. Usernames and profile photos are blurred.",
         items: [
           { ...img("/work/connie/comments.jpg", "Instagram comments on the collab post, including 'always the Best' and 'WOW, thank you to @conniebrands_za', with several comments liked by the author; usernames blurred", "Comments on the collab post, several liked by the author."), span: "third" },
-          { ...img("/work/connie/report-top-posts.jpg", "Campaign report slide titled 'Top Performing Posts Analytics', listing Connie Brands posts across Facebook, Instagram and TikTok; the 25 December collab reel with @callherthato shows 493 likes and 14 comments", "Top posts in the campaign report, including the collab reel."), span: "twoThirds" },
+          { ...img("/work/connie/report-top-posts.jpg", "Campaign report list of top posts by Connie Brands across Facebook, Instagram and TikTok; the 25 December collab reel with @callherthato shows 493 likes and 14 comments", "Top posts in the campaign report, including the collab reel."), span: "twoThirds" },
         ],
       },
       {
