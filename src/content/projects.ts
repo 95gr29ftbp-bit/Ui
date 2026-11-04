@@ -138,7 +138,7 @@ export const projects: Project[] = [
     deliverables: [
       "Social content: photography, reels and graphics",
       "Social media scheduling",
-      "Event promotion",
+      "Event promotion and posters",
       "Marketing communications",
     ],
     gallery: [
@@ -160,26 +160,28 @@ export const projects: Project[] = [
         title: "Events and everyday life",
         intro: "Photography and video from residence events and partner activations.",
         items: [
-          { ...img("/work/photography/five-a-side.jpg", "Residents playing five-a-side football on an artificial pitch at a Thrive student residence", "Five-a-side at the residence."), span: "half" },
-          { ...img("/work/photography/thrive-red.jpg", "Two students in red racing jackets posing in front of a Thrive Student Living backdrop", "Themed event, Thrive Student Living."), span: "half" },
-          { ...img("/work/video/thrive-social.jpg", "Short-form video frame: 'Did you know we are on social media?' promoting the residence's Instagram", "Reel: driving residents to follow the account."), span: "third" },
+          { ...img("/work/photography/five-a-side.jpg", "Residents playing five-a-side football in bibs on a netted artificial pitch at the residence", "Five-a-side at the residence."), span: "half" },
+          { ...img("/work/apex/student-life-team.jpg", "The Apex Studios student life team in branded grey polos, laughing and posing against a warm yellow background", "The student life team, in Apex Studios polos."), span: "half" },
+          { ...img("/work/photography/thrive-red.jpg", "Two students in red racing jackets posing in front of a Thrive Student Living backdrop", "Themed event, Thrive Student Living."), span: "third" },
           { ...img("/work/video/kfc.jpg", "Video still of a KFC-branded flag at a residence event", "Partner activation, video still."), span: "third" },
           { ...img("/work/video/blackbullion.jpg", "A student holding a Blackbullion financial-skills flyer at an event stand", "Partner stand: financial skills, video still."), span: "third" },
         ],
       },
       {
-        title: "Graphics",
+        title: "Graphics and social",
+        intro: "Posters and social graphics for residents, in the Thrive @ Apex Studios identity.",
         items: [
-          { ...img("/work/graphics/grab-and-go.jpg", "'Grab & Go Breakfast' social graphic showing a hand reaching for apples, with the Thrive logo", "Grab & Go Breakfast, social graphic."), span: "half" },
+          { ...img("/work/apex/recess-programme-volunteers.jpg", "'Join the Student Life Recess Programme volunteer team!' poster with Thrive @ Apex Studios branding, a fire pit, snack platters, painted hands and residents at a movie night", "Student Life Recess Programme, volunteer call-out poster."), span: "half" },
+          { ...img("/work/graphics/grab-and-go.jpg", "'Grab & Go Breakfast' social graphic showing a hand reaching for apples beside juice boxes, with the Thrive @ Apex Studios logo", "Grab & Go Breakfast, social graphic."), span: "half" },
           { ...img("/work/graphics/thriving.jpg", "'Thriving' social graphic with an Apex Studios resident smiling in a hoodie", "Thriving, resident feature."), span: "half" },
+          { ...img("/work/video/thrive-social.jpg", "Short-form video frame: 'Did you know we are on social media?' promoting the residence's Instagram", "Reel: driving residents to follow the account."), span: "half" },
         ],
       },
       {
         title: "Still to add",
         items: [
-          { pending: "Event poster or promotional flyer", ratio: "4/5", span: "third" },
-          { pending: "Content calendar or campaign plan (redacted if needed)", ratio: "4/5", span: "third" },
-          { pending: "Confirm every image in this gallery is from Apex Studios work", ratio: "4/5", span: "third" },
+          { pending: "Content calendar or campaign plan (redacted if needed)", ratio: "16/9", span: "half" },
+          { pending: "Confirm every image in this gallery is from Apex Studios work", ratio: "16/9", span: "half" },
         ],
       },
     ],
@@ -216,6 +218,7 @@ export const projects: Project[] = [
     objective: "Give the trade a clear, consistent way to navigate the range.",
     role: [
       "Campaign key visuals",
+      "Event invitation and activation content",
       "Layout and artwork",
       "Presentation design across catalogue and digital trade formats",
       "Promotional artwork",
@@ -226,6 +229,10 @@ export const projects: Project[] = [
       {
         title: "Key visuals",
         body: "Campaign artwork that puts people, product and the olive identity in one frame: “The Original. Trusted. True.” for the core range, and Black Castor Hair Oil positioned for braids, weaves and protective styles around three benefits: strengthen, thicken, refresh.",
+      },
+      {
+        title: "Events and activation",
+        body: "A Sip & Paint invitation for 23 September 2025 at Houghton 1938, garden-chic themed and framed like a gallery piece, and a vertical reel from an ORS activation: “Everybody wants these”, showing the branded merchandise, the display stand and the spin-the-wheel.",
       },
       {
         title: "A repeatable presenter structure",
@@ -244,6 +251,8 @@ export const projects: Project[] = [
       "Campaign key visuals",
       "Digital trade presenters",
       "Promotional poster",
+      "Event invitation",
+      "Activation reel (9:16)",
       "Product catalogue",
     ],
     gallery: [
@@ -254,6 +263,22 @@ export const projects: Project[] = [
           { ...img("/work/ors/key-visual-the-original.jpg", "ORS Olive Oil key visual: 'The Original. Trusted. True.' with a smiling model holding three ORS products, framed by olives and an oil splash", "Key visual: The Original. Trusted. True."), span: "full" },
           { ...img("/work/ors/key-visual-black-castor.jpg", "ORS Olive Oil with Black Castor key visual: a model with braids dispenses the product, beside three Black Castor Hair Oil bottles and the line 'For braids, weaves & protective hair styles'", "Key visual: Black Castor Hair Oil, for braids, weaves and protective styles."), span: "twoThirds" },
           { ...img("/work/ors/promo-buy-2-get-1-free.jpg", "ORS Olive Oil 'Buy 2X & get 1 free!' poster with three offers: Wrapset Mousse, Sheen Spray and full application kits", "Promotional poster: buy two, get one free."), span: "third" },
+        ],
+      },
+      {
+        title: "Events and activation",
+        intro: "Bringing the brand into the room: an invitation and the content that came out of an activation.",
+        items: [
+          { ...img("/work/ors/sip-and-paint-invitation.jpg", "ORS Olive Oil 'Sip & Paint' invitation in an ornate gold frame: 23 September 2025, Houghton 1938, garden chic theme, with a paintbrush and champagne", "Sip & Paint invitation, 23 September 2025."), span: "half" },
+          {
+            ...video(
+              "/work/ors/activation-reel.mp4",
+              "/work/ors/activation-reel-poster.jpg",
+              "Vertical reel from an ORS activation: 'Everybody wants these', with ORS tote bags, T-shirts and caps, a product display stand and a spin-the-wheel game",
+              "Activation reel: “Everybody wants these”. 9:16, 16 seconds.",
+            ),
+            span: "half",
+          },
         ],
       },
       {

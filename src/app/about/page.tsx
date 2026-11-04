@@ -40,7 +40,7 @@ const lens = [
   img("/work/photography/duet.jpg", "Two singers performing on a dark stage"),
   img("/work/photography/sunset.jpg", "A woman with long braids seen from behind, watching a sunset"),
   img("/work/photography/crowd.jpg", "A packed, cheering audience in a school hall"),
-  img("/work/photography/reflection.jpg", "A woman with braids, hands clasped in a quiet moment"),
+  img("/work/photography/reflection.jpg", "A woman with twisted braids smiling in blue concert light, hands clasped"),
   img("/work/photography/field.jpg", "A woman in a sun hat with arms outstretched in a grassy field"),
   img("/work/photography/performer.jpg", "A performer in a white shirt singing into a microphone on a dark stage"),
   img("/work/photography/smile.jpg", "Close-up of a woman with braids, smiling with eyes lowered"),
@@ -48,6 +48,7 @@ const lens = [
   img("/work/photography/host.jpg", "A host in white speaking into a microphone against a brick wall"),
   img("/work/photography/selfie-wall.jpg", "Friends taking a phone photo in front of a wall of posters"),
   img("/work/photography/audience.jpg", "An audience laughing and clapping in tiered seating"),
+  img("/work/photography/gaming-ground.jpg", "Two friends smiling in front of a Red Bull Gaming Ground sign"),
 ];
 
 export default function AboutPage() {
