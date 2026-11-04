@@ -43,10 +43,10 @@ export default function WorkPage() {
             label="Archive"
             title={<>Smaller pieces: <em>graphics and video.</em></>}
           />
-          <div className="mt-14 grid grid-cols-2 gap-x-5 gap-y-10 md:mt-20 md:grid-cols-3 lg:grid-cols-6">
+          <div className="mt-14 grid grid-cols-2 gap-x-5 gap-y-10 md:mt-20 md:grid-cols-3 lg:grid-cols-5">
             {archive.map((image, i) => (
-              <Reveal key={image.src} delay={(i % 6) * 60}>
-                <Figure image={image} sizes="(min-width: 1024px) 16vw, 45vw" mat={false} upscale={1.4} />
+              <Reveal key={image.src} delay={(i % 5) * 60}>
+                <Figure image={image} sizes="(min-width: 1024px) 19vw, 45vw" mat={false} upscale={1.4} />
               </Reveal>
             ))}
           </div>

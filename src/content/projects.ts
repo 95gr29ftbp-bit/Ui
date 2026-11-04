@@ -439,7 +439,6 @@ export const featuredProjects = projects.filter((p) => p.featured);
 
 /** Smaller pieces shown in the archive strip on /work */
 export const archive = [
-  img("/work/graphics/dabur-herbl-miswak.jpg", "Dabur Herb'l and Miswak natural toothpaste product graphic", "Dabur Herb'l & Miswak, product graphic."),
   img("/work/graphics/profmed.jpg", "Illustrated explainer graphic: 'What is Profmed?'", "Profmed, explainer graphic."),
   img("/work/video/netball.jpg", "Video still: 'Netball match' title over players holding a ball", "Netball match, video edit."),
   img("/work/video/residence.jpg", "Video still of a residential building against a blue sky", "Location video, still."),
